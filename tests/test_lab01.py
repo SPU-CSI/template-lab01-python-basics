@@ -19,7 +19,7 @@ class TestPart1Basics:
     def test_1_1_char_count(self):
         """แบบฝึกหัด 1.1: นับจำนวนตัวอักษร"""
         text = "OpenSearch is a powerful search engine for RAG systems"
-        expected = 56
+        expected = 54
         actual = len(text)
         assert actual == expected, f"char_count ควรเป็น {expected}"
     
